@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      body {
+        margin: 0;
+      }
+      canvas {
+        display: block;
+        margin: 0;
+        z-index: 0;
+      }
+      #grid {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+      }
+      #container {
+        background-color: #21252b;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+      }
+      #content {
+        display: flex;
+      }
+      #right {
+        display: flex;
+        flex-direction: column;
+      }
+      #topbar {
+        height: 40px;
+      }
+      #scene {
+        border-top: 1px solid #181a1f;
+        border-right: 1px solid #181a1f;
+        background-color: #282c34;
+      }
+      #sidebar {
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <script src="http://localhost:8080/webpack-dev-server.js"></script> -->
+    <div id="app"></div>
+    <script src="pixi.min.js"></script>
+    <script src="bundle.js"></script>
+  </body>
+</html>
