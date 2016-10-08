@@ -1,3 +1,7 @@
+import app from './components/app';
+
+
+/*
 import PIXI from 'pixi.js';
 import delay from 'delay';
 import clickdrag from 'clickdrag';
@@ -208,3 +212,4 @@ renderer.render(stage);
 // });
 
 // loop.start();
+*/
